@@ -1,0 +1,5 @@
+Flask
+gunicorn
+ffmpeg-python
+moviepy
+
