@@ -1,0 +1,196 @@
+:root {
+    --primary-color: #8e44ad;
+    --secondary-color: #00cec9;
+    --accent-color: #fd79a8;
+    --dark-bg: #1e1e2f;
+    --card-bg: #2c2c3e;
+    --text-color: #f1f1f1;
+    --input-bg: #34344e;
+    --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+.upload-section {
+    padding: 4rem 0;
+    background: var(--dark-bg);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: var(--card-bg);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px var(--shadow-color);
+    transition: all 0.4s ease-in-out;
+}
+
+.upload-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.upload-instructions {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #aaa;
+    font-size: 1.1rem;
+}
+
+.dropzone {
+    border: 2px dashed var(--secondary-color);
+    border-radius: 10px;
+    background: var(--input-bg);
+    min-height: 200px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.dropzone:hover {
+    background: #3c3c5c;
+    border-color: var(--accent-color);
+}
+
+.dropzone .dz-message {
+    margin: 2em 0;
+    color: var(--accent-color);
+    font-size: 1.2rem;
+}
+
+.submit-btn {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 2rem;
+    width: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.submit-btn:hover {
+    transform: translateY(-5px);
+    background: var(--secondary-color);
+    box-shadow: 0 8px 18px var(--shadow-color);
+}
+
+.submit-btn:disabled {
+    background: #555;
+    cursor: not-allowed;
+}
+
+.text-input-container {
+    margin: 2rem 0;
+}
+
+.text-input {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--input-bg);
+    font-size: 1rem;
+    color: var(--text-color);
+    resize: vertical;
+    min-height: 100px;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.text-input:hover {
+    border-color: var(--accent-color);
+}
+
+.text-input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 8px rgba(0, 206, 201, 0.5);
+}
+
+.text-input::placeholder {
+    color: #bbb;
+}
+
+.file-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.file-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #666;
+    border-radius: 6px;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    transition: border-color 0.3s ease;
+}
+
+.file-input:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+}
+
+.add-file-btn {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-file-btn:hover {
+    background-color: #ff4d94;
+}
+
+.remove-file-btn {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.remove-file-btn:hover {
+    background-color: #e84118;
+}
+
+#fileInputs {
+    margin-bottom: 15px;
+}
+
+.file-input:not(:placeholder-shown) {
+    border-color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+    .file-input-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .remove-file-btn {
+        align-self: flex-end;
+    }
+}
