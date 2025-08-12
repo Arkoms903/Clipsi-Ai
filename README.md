@@ -17,6 +17,8 @@ Simply upload your images, provide a prompt, and the system will:
 1. Convert your prompt into speech using **ElevenLabs API**.
 2. Merge the images into a reel-style video with **FFmpeg**.
 3. Add the generated speech as the reel's background audio.
+![Clipsi AI Preview](static/Home.png)
+
 
 This makes it ideal for **social media creators, storytellers, and marketers** who want quick, automated, and visually engaging content.
 
