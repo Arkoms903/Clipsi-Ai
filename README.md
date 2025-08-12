@@ -34,7 +34,8 @@ This makes it ideal for **social media creators, storytellers, and marketers** w
 
 ---
 ![Gallery Section Preveiw](static/Gallery.png)
-
+## **🚀 Live Preview**
+https://clipsi-ai-znqi.onrender.com
 ## 🛠️ Tech Stack
 **Backend:** Python, Flask  
 **Frontend:** HTML, CSS  
