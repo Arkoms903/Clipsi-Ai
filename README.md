@@ -7,7 +7,6 @@
 ![CSS3](https://img.shields.io/badge/CSS-Design-blue?logo=css3&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-Media%20Processing-green?logo=ffmpeg&logoColor=white)
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-Text%20to%20Speech-purple)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
