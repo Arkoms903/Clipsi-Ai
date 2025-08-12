@@ -48,13 +48,17 @@ https://clipsi-ai-znqi.onrender.com
 ClipsiAI/
 │
 ├── app.py # Flask backend
+
 ├── templates/ # HTML templates
 │ ├── index.html
 │ └── result.html
+
+
 ├── static/ # CSS & assets
 │ └── style.css
 ├── uploads/ # Uploaded images
 ├── output/ # Generated video reels
+
 ├── requirements.txt # Python dependencies
 └── README.md
 ---
