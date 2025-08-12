@@ -31,8 +31,10 @@ This makes it ideal for **social media creators, storytellers, and marketers** w
 - 🎬 Merge images and audio into a smooth reel using **FFmpeg**.
 - 🌐 Simple and intuitive **Flask**-based web interface.
 - 🎨 Frontend designed with **HTML & CSS** for clean and responsive UI.
+![Functional Preveiw:: ](static/File.png)
 
 ---
+![Gallery Section Preveiw](static/Gallery.png)
 
 ## 🛠️ Tech Stack
 **Backend:** Python, Flask  
